@@ -1,0 +1,58 @@
+.contact-section {
+    background: #000;
+    padding: 200px 0;
+    background: url(./img/about-bg.png);
+    /* overflow: hidden; */
+}
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.contact-main {
+    font-size: 70px;
+    line-height: 77.6px;
+}
+
+.contact-card-left{
+    background: #000
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+input{
+    padding: 10px 10px 10px 0;
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    outline: none !important;
+    border-bottom: 1px solid #000;
+}
+
+.sec-form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+}
+
+td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td:nth-child(2){
+    padding-left: 20px
+}
+
+.submit-btn{
+    background:#5B656F;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}

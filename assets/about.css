@@ -1,0 +1,20 @@
+.about-section {
+    background: #000;
+    padding: 200px 0;
+    background: url(./img/about-bg.png);
+    /* overflow: hidden; */
+}
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.about-main {
+    font-size: 70px;
+    line-height: 77.6px;
+    color: #fff;
+}
+
+h1, p{
+    color: #000
+}
