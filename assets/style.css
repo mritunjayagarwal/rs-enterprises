@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-html, body{
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -15,28 +16,28 @@ section {
     padding: 100px 0;
 }
 
-.section-head{
+.section-head {
     font-family: Lora;
-font-size: 60px;
-font-weight: 400;
-line-height: 69.12px;
-letter-spacing: 0.10000000149011612px;
-text-align: left;
-padding: 10px 0;
-color: #000
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 69.12px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    padding: 10px 0;
+    color: #000
 }
 
-.section-head hr{
+.section-head hr {
     width: 20%;
     margin-left: 0;
     border-bottom: 4px solid #B18941;
 }
 
-.section-para{
+.section-para {
     font-family: Lora;
-font-size: 16px;
-text-align: left;
-color: #000;
+    font-size: 16px;
+    text-align: left;
+    color: #000;
 
 }
 
@@ -82,7 +83,7 @@ p {
     margin-top: 20px;
 }
 
-.hero-para-second{
+.hero-para-second {
     padding: 10px;
     border-left: 4px solid #B18941;
     font-size: 18px;
@@ -92,16 +93,30 @@ p {
     height: 100vh;
 } */
 
-.number-item{
+.projects-section {
+    position: relative;
+    height: 100vh;
+    padding: 0;
+}
+
+.pos-part {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.number-item {
     padding: 10px;
     border-bottom: 1px solid #5B5B5B;
 }
 
-.number-head{
+.number-head {
     font-size: 80px;
 }
 
-.services-section{
+.services-section {
     background: #F0EFEF
 }
 
@@ -119,4 +134,99 @@ p {
 .ongoing-section {
     background: #000;
     color: #fff;
+}
+
+.og-projects-para{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-nav{
+        background: #000
+    }
+
+    .nav-item{
+        background: #000;
+        margin-left: -10px;
+        padding: 5px 0;
+    }
+
+    .main-btn{
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin-top: 0px !important;
+    }
+
+    .nav-link-item {
+        padding: 10px 0;
+        margin-left: -15px
+    }
+
+    .section-head {
+        font-size: 30px;
+    }
+
+    .hero-section {
+        padding: 100px 0;
+        overflow: hidden;
+    }
+
+    .hero-main {
+        font-size: 30px;
+        line-height: unset;
+    }
+
+    .hero-para {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .hero-para-second {
+        padding: 10px;
+        border-left: 4px solid #B18941;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .hero-img{
+        height: auto;
+        width: 100%;
+    }
+
+    .projects-section {
+        height: unset;
+        padding: 50px 0;
+    }
+
+    .pos-mob-hide {
+        display:none;
+    }
+
+    .pos-part {
+        position: unset;
+    }
+    
+    .number-head {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .number-para{
+        font-size: 14px;
+    }
+
+    .number-item{
+        padding: 0px;
+    }
+
+    .services-card{
+        margin-top: 20px;
+    }
+
+    .og-projects-para{
+        width: 100%;
+    }
 }
