@@ -1,4 +1,4 @@
-.about-section {
+.career-section {
     background: #000;
     padding: 200px 0;
     background: url(./img/about-bg.png);
@@ -17,6 +17,39 @@
 
 h1, p{
     color: #000
+}
+
+.form-card{
+    padding: 50px;
+    box-shadow: 0px 10px 35px 0px #00000026;
+}
+
+.job-post-card{
+    padding: 30px;
+    box-shadow: 0px 10px 35px 0px #00000026;
+}
+
+.job-post-card h6{
+    font-size: 16px;
+}
+
+.job-post-card p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.benefits-sec{
+    margin-bottom: 10px;
+}
+
+.form-card input, .form-card textarea{
+    padding: 10px 8px;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #ddd;
 }
 
 .form-card-btn{
